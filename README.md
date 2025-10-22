@@ -36,13 +36,13 @@ src/
  └── modules/
       ├── led_controller/
       │   ├── led_controller.h
-      │   └── led_controller.cpp
+      │   └── led_controller.c
       ├── wifi_manager/
       │   ├── wifi_manager.h
       │   └── wifi_manager.cpp
       └── sensor_reader/
           ├── sensor_reader.h
-          └── sensor_reader.cpp
+          └── sensor_reader.c
 ```
 
 Each module provides:
