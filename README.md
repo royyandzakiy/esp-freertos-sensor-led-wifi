@@ -1,6 +1,6 @@
-# ESP32 RTOS Example
+# FreeRTOS - Project Sensor LED WiFi (ESP + Arduino)
 
-This project demonstrates a modular firmware architecture for the ESP32-S3, combining FreeRTOS task management with Arduino hardware APIs. Each module runs as an independent FreeRTOS task with its own initialization, logic, and cleanup routines.
+This project demonstrates a modular firmware architecture for the ESP32, combining FreeRTOS task management with Arduino hardware APIs. Each module runs as an independent FreeRTOS task with its own initialization, logic, and cleanup routines.
 
 ## Key Features
 
@@ -12,26 +12,10 @@ This project demonstrates a modular firmware architecture for the ESP32-S3, comb
 
 ## Getting Started
 
-### Requirements
-
-* Board: ESP32-S3 DevKitC-1
-* Framework: Arduino (via PlatformIO)
-
-### PlatformIO Configuration
-```ini
-[env:esp32-s3-devkitc-1]
-platform = espressif32
-board = esp32-s3-devkitc-1
-framework = arduino
-monitor_speed = 115200
-```
-
-### Setup Steps
-
 1. Install PlatformIO (VSCode extension recommended).
 2. Create a new project with the above configuration.
 3. Ensure you have the Arduino-ESP32 framework installed (PlatformIO will handle this automatically).
-4. Build and upload the project to your ESP32-S3 DevKitC-1.
+4. Build and upload the project to your ESP Board.
 
 ## System Overview
 
