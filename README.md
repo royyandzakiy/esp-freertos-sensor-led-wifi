@@ -85,3 +85,6 @@ Each module provides:
 [I][Main]: Free Heap: 264312 bytes
 [I][Main]: Minimum Heap Free: 250120 bytes
 ```
+
+## References
+- Arduino WiFi Events: https://randomnerdtutorials.com/esp32-useful-wi-fi-functions-arduino/#10
